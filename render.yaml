@@ -5,11 +5,4 @@ services:
     plan: free
     repo: https://github.com/amauriijunior/n8n-render
     branch: main
-    dockerfilePath: ./Dockerfile
-    envVars:
-      - key: N8N_BASIC_AUTH_ACTIVE
-        value: true
-      - key: N8N_BASIC_AUTH_USER
-        value: pedro
-      - key: N8N_BASIC_AUTH_PASSWORD
-        value: senha123
+    dockerCommand: docker-compose up --no-build
