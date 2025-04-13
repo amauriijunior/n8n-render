@@ -1,10 +1,9 @@
-
 services:
   - type: web
     name: n8n-garimpo
     env: docker
     plan: free
-    repo: https://github.com/SEU_USUARIO/n8n-render
+    repo: https://github.com/amauriijunior/n8n-render
     branch: main
     dockerfilePath: ./Dockerfile
     envVars:
